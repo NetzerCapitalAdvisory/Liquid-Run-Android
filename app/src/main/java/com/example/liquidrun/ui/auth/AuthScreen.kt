@@ -63,12 +63,7 @@ fun AuthScreen(onLoginSuccess: () -> Unit) {
                 onClick = {
                     coroutineScope.launch {
                         try {
-                            // ACHTUNG: Bevor dies funktioniert, musst du in Firebase 
-                            // den SHA-1 Key eintragen, damit die Web Client ID generiert wird!
-                            // signInWithGoogle(context) 
-                            
-                            // Zum sofortigen Testen machen wir ein Anonymous Login
-                            FirebaseAuth.getInstance().signInAnonymously().await()
+                            // KOMPLETT ÜBERSPRUNGEN FÜR DEINEN TEST
                             onLoginSuccess()
                         } catch (e: Exception) {
                             errorMessage = "Fehler: ${e.message}"
