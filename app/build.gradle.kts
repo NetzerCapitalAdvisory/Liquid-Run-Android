@@ -94,4 +94,9 @@ dependencies {
   
   // Biometrics
   implementation(libs.androidx.biometric)
+  
+  // Google Sign-In (Credential Manager)
+  implementation(libs.androidx.credentials)
+  implementation(libs.androidx.credentials.play.services.auth)
+  implementation(libs.googleid)
 }
