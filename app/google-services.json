@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848217452074",
+    "project_id": "liquid-run-70644",
+    "storage_bucket": "liquid-run-70644.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848217452074:android:2c298597f7b440883e9d53",
+        "android_client_info": {
+          "package_name": "com.example.liquidrun"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMrE3v78eX_x6Tra66tra9TaaCjiyDk9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
