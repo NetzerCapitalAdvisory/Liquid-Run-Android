@@ -1,18 +1,10 @@
 package com.example.liquidrun
 
+import androidx.navigation3.runtime.NavKey
 import kotlinx.serialization.Serializable
 
-@Serializable
-object Auth
-
-@Serializable
-object Home
-
-@Serializable
-object Clubs
-
-@Serializable
-object Tracking
-
-@Serializable
-object Profile
+@Serializable data object Auth : NavKey
+@Serializable data object Home : NavKey
+@Serializable data object Clubs : NavKey
+@Serializable data object Tracking : NavKey
+@Serializable data object Profile : NavKey
